@@ -1,0 +1,116 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VCSC</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo"><i class="fas fa-shield-virus"></i></i>Vadodara Common Services Center</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="home.html" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="contacts.html" class="navbar__links">Contacts</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="about.html" class="navbar__links">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <form action="auth.html" method="post">
+        <div class="imgcontainer">
+            <img src="vadodarasatellite.png" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+
+            <label for="uname"><b><div id="User">Username</div></b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label for="password"><b><div id="Pass">Password</div></b></label>
+            <input type="password" placeholder="Enter Password" name="password" required>
+
+            <div id="Log">
+                <button class="loginbutton"><a href="login.html">Employee Login</a></button> </div>
+            <label>
+                
+            <input type="checkbox" checked="checked" name="remember"> <div style="color:white">Remember me</div> 
+          </label>
+        </div>
+
+        <div class="container" style="background-color:black">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <span class="psw"> <a href="#">Forgot password?</a></span>
+        </div>
+    </form>
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>About Us</h2>
+                    <a href="/">Testimonials</a>
+                    <a href="/">Careers</a>
+                    <a href="/">Terms of Service</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Contact Us</h2>
+                    <a href="/">Contact</a>
+                </div>
+            </div>
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>Videos</h2>
+                    <a href="/">Submit Video</a>
+                    <a href="/">Ambassadors</a>
+                    <a href="/">Agency</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Social Media</h2>
+                    <a href="/">Instagram</a> <a href="/">Facebook</a>
+                    <a href="/">Youtube</a> <a href="/">Twitter</a>
+                </div>
+            </div>
+        </div>
+        <section class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="navbar__logo"><i class="fas fa-shield-virus"></i></i>VCSC</a>
+                </div>
+                <p class="website__rights">© VCSC. All rights reserved</p>
+                <div class="social__icons">
+                    <a class="social__icon--link" href="/" target="_blank" aria-label="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a class="social__icon--link" href="/" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="social__icon--link" href="/" target="_blank" aria-label="Youtube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a class="social__icon--link" href="/" target="_blank" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="social__icon--link" href="/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
